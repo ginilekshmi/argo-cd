@@ -1,0 +1,6 @@
+appConfig:
+  appName: myapp
+  namespace: myapp
+  chart:
+    name: myapp-helm-chart
+    version: 1.0.0
