@@ -1,4 +1,7 @@
-cluster:
-  name: cluster-yaml
-  server: in-cluster
-  overlay: cluster-yaml
+{
+  "cluster": {
+    "name": "cluster1",
+    "server": "https://api.giocluster.lab.psi.pnq2.redhat.com:6443",
+    "overlay": "cluster1"
+  }
+}
